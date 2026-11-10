@@ -1,0 +1,99 @@
+.lien{
+    color: #2E2A26;
+}
+.lien:hover{
+    color: white;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: #D8935C;
+    justify-content: space-around
+    
+}
+header ul{
+    display: flex;
+    gap: 60px;
+    color: #2E2A26;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+}
+
+button.button{
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #2E2A26;
+  transition: 0.4s;
+}
+button.button:hover {
+  background-color: white;
+  color: #2E2A26;
+}
+ul li{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+#section1 {
+    
+    background-color: rgb(239, 238, 238);
+    display: flex;
+    justify-content: space-around;
+
+}
+#section1 img{
+    width: 50%;
+    height: 50%;
+    padding: 25px 25px;
+    line-height: 0.5;
+    
+    border-radius: 15%;
+}
+div.titre{
+    display: flex;
+    justify-content: center;
+}
+#section2{
+    display: flex;
+    justify-content: space-around;
+}
+#section2 img{
+    width: 30%;
+    height: 25%;
+    padding: 25px 25px;
+    line-height: 0.5;
+    border-radius: 15%;
+}
+
+#section3{
+    background-color: rgb(239, 238, 238);
+}
+div.document{
+    column-count: 2;
+    justify-content: center;
+}
+#section3 img{
+    display: flex;
+    gap: 20px;
+}
+div.page1 img, div.page2 img, div.page3 img, div.page4 img{
+    display: flex;
+    height:48%;
+    width: 48%;
+    justify-content: center;
+
+}
+
+
+footer{
+    display: flex;
+    justify-content: center
+    background-color #D8935C;
+}
