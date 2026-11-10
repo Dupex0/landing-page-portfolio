@@ -1,9 +1,4 @@
-.lien{
-    color: #2E2A26;
-}
-.lien:hover{
-    color: white;
-}
+
 
 header{
     display: flex;
@@ -95,5 +90,6 @@ div.page1 img, div.page2 img, div.page3 img, div.page4 img{
 footer{
     display: flex;
     justify-content: center
-    background-color #D8935C;
+
+
 }
